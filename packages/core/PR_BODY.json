@@ -1,0 +1,6 @@
+{
+  "title": "feat(scanner): add multicall/batched scanning engine",
+  "body": "This branch adds a first-cut scanning engine to the core package and a simple Scan UI in the web app.\n\nFeatures:\n- scanMnemonic API: derive addresses across derivation paths and index ranges, batch ETH balance checks, return discovered non-zero addresses\n- multicall placeholder for future ERC-20 batch queries\n- simple web Scan UI to configure and run scans\n\nNotes:\n- This implementation uses provider.getBalance in batches. We will iterate to add true Multicall usage and ERC-20 detection next.\n- Scanning large ranges on mainnet with public RPC endpoints may be slow. Add RPC API keys in .env for better throughput.",
+  "head": "feat/scanner",
+  "base": "init"
+}
