@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "Lost Wallet Finder",
+    "slug": "lost-wallet-finder",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0"
+  }
+}

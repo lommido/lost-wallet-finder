@@ -1,0 +1,7 @@
+{
+  "name": "init-scaffold",
+  "title": "Initial scaffold for Lost Wallet Finder",
+  "body": "This PR adds the initial monorepo scaffold: packages/core (wallet logic), packages/web (React + Vite demo), and packages/mobile (Expo).\n\nFeatures included:\n- Mnemonic generation and address derivation (BIP39/BIP44)\n- Keystore encrypt/decrypt using ethers' Wallet.encrypt/decrypt\n- Demo web UI for generate/derive/encrypt\n- Mobile Expo placeholder app\n\nSecurity: All keys are handled locally. This is a scaffold for further development.\n\nNext steps:\n- Implement scanning engine with Multicall and RPC batching\n- Add ERC-20 token detection and transaction signing/broadcasting\n- Improve mobile keystore storage and UX",
+  "head": "init",
+  "base": "main"
+}
